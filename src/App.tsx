@@ -51,7 +51,7 @@ function App() {
     <Container
       maxWidth="lg"
       className="animated-background"
-      sx={{ ...styles.container, minHeight: { xs: "80vh", md: "100vh" } }}
+      sx={styles.container}
     >
       <Typography variant="h4" sx={styles.title}>
         Nuestro Álbum de Recuerdos 💖
